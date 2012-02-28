@@ -1,3 +1,7 @@
+#!/bin/bash
+
+#fonction d'extraction des différents type d'archive
+#source http://doc.ubuntu-fr.org/archivage
 extract () {
   if [ -f "$1" ] ; then
     case "$1" in
